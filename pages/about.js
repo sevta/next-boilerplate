@@ -1,13 +1,15 @@
-import Layout from "components/Layout";
+import Layout from "components/layout";
 import Link from "next/link";
 
 export default function AboutPage() {
   return (
-    <Layout className="flex items-end space-x-3 justify-center">
-      <div className="title">About.</div>
-      <Link href="/" passHref>
-        <div className="link">home</div>
-      </Link>
+    <Layout>
+      <div className="content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, ducimus
+        quas maiores cupiditate aspernatur exercitationem voluptates, possimus
+        corporis ea eos alias soluta deserunt! Eum atque rem eligendi commodi,
+        dolorum dignissimos!
+      </div>
     </Layout>
   );
 }

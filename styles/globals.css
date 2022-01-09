@@ -44,7 +44,7 @@
   }
 
   .content {
-    @apply text-base-content/70 leading-relaxed;
+    @apply text-base-content/70 text-sm leading-normal;
   }
 
   .link {
@@ -52,6 +52,6 @@
   }
 
   .container {
-    @apply max-w-6xl px-5 mx-auto relative;
+    @apply max-w-4xl px-5 mx-auto relative;
   }
 }

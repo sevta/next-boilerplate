@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         inter: ["Inter", ...fontFamily.sans],
+        "public-sans": ["Public Sans", ...fontFamily.sans],
       },
       screens: {
         xxl: { max: "1535px" },
